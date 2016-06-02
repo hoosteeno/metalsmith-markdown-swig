@@ -1,6 +1,5 @@
-{% extends "./layouts/page_template.swig" %}
+<div data-markdown>
 
-{% block about %}
 ## About
 
 This is about me. I like lists:
@@ -11,4 +10,4 @@ This is about me. I like lists:
 * So
 * Happy!
 
-{% endblock %}
+</div>

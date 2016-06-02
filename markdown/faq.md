@@ -1,6 +1,4 @@
-{% extends "./layouts/page_template.swig" %}
-
-{% block faq %}
+<div data-markdown>
 
 ## FAQ
 
@@ -10,4 +8,4 @@
 **Q: What else do you like?**
 *A: Series.*
 
-{% endblock %}
+</div>
