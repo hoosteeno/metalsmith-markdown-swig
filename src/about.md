@@ -10,4 +10,5 @@ This is about me. I like lists:
 * Me
 * So
 * Happy!
+
 {% endblock %}
