@@ -6,7 +6,7 @@ It shows how to use Metalsmith to build a single page that includes several bits
 
 There are two releases: 
 
-1. The first shows how to do this by putting template tags in markdown, and using a custom renderer to pass them through to the template engine.
-2. The second shows how to do this using the metalsmith-data-markdown plugin and template inheritance.
+1. The first shows how to do this by putting template tags in markdown, and using [a custom renderer](https://github.com/hoosteeno/metalsmith-markdown-swig/blob/custom_renderer/build.js#L9) to pass them through to the template engine.
+2. [The second](https://github.com/hoosteeno/metalsmith-markdown-swig/tree/data_markdown) shows how to do this using the metalsmith-data-markdown plugin and template inheritance.
 
-Number 2 above is cleaner.
+Number 2 above is cleaner, but number 1 shows how easy it is to modify how Metalsmith does stuff.
